@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+:root {
+    --cafe: #6F4E37;
+}
+*{
+    margin: 0 auto;
+}
+body{
+background-color: #6e442b; /* tom inicial de café */
+padding: 20px;
+background:
+    /* polvilhado de cacau translúcido */
+    linear-gradient(135deg, rgba(60, 40, 25, 0.06) 25%, transparent 25%) 0 0/32px 32px,
+    linear-gradient(225deg, rgba(60, 40, 25, 0.06) 25%, transparent 25%) 0 0/32px 32px,
+
+    /* nuances para dar textura */
+    linear-gradient(45deg, rgba(176, 122, 83, 0.12) 25%, transparent 25%) 0 0/32px 32px,
+    linear-gradient(315deg, rgba(110, 68, 43, 0.12) 25%, transparent 25%) 0 0/32px 32px,
+
+    /* fundo principal invertido: café → creme */
+    linear-gradient(
+      to bottom,
+      #6e442b 0%,     /* marrom cacau/café escuro */
+      #b07a53 25%,    /* café médio */
+      #d6b19a 55%,    /* café com leite */
+      #f1e3cf 80%,    /* creme suave */
+      #f7efe6 100%    /* mascarpone bem claro */
+    );
+}
+main{
+    max-width: 700px;
+    position: relative;
+    background-color:#D9BCA3;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px #424242;
+}
+img{
+    border-radius: 15px;
+    max-width: 100%;
+}
+h1 {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 50px;
+  color: #591202;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 20px;
+}
+.martinha {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 50px;
+  color: #591202;
+}
+#footer{
+    max-width: 700px;
+    text-align:center;
+    line-height: 80px;
+}
+li{
+    font-weight: 400;
+}
